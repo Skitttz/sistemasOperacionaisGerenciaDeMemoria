@@ -53,8 +53,14 @@ Todo esse trabalho e feito por um modulo do sistema operacional que se chama ger
 
 Em sistemas operacionais mono tarefas e monoprogramação e memória era usa de 3 formas diferentes
 
-A primeira e mais intiga em mainframes(computadores de grande porte), o sistema operacional era armazenado na memória principal 
+A primeira e mais intiga em mainframes(computadores de grande porte), o sistema operacional era armazenado na memória principal
 
 O segundo usada em alguns handhelds(Sistemas moveis por exemplo), tem o sistema operacional aramzenado em uma mamória de leitura apenas, ou seja fez o boot, assim que o boot e feito essa memória de leitura e acessada para caregar o sistema operacional.
 
 E a terceiro forma de gerenciamento de memória em sistemas operacionais mono tarefas e monoprogramação foi usada em computadores pessoais, onde o sistema operacional ficava na memória principal começando com o endereço 0 e os drivers de dispositivos, (driverns de dispositivos são softwares que controlam o dispositivo) ficam armazenados em memorias apenas de leitura.
+
+## Gerencia de Memória - Multiprogramação
+
+- Como fazer para armazenar n processos na memória?,ao chegar um job, coloque-o na fila da memória, a memória então e divida em n partições de tamanho fixo, não necessariamente iguais.
+
+- Como dar a cada programa seu próprio espaço de endereço, de modo que o endereço 28 em um seja diferente, na memória física, do 28 de outro?
