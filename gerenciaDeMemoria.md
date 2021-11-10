@@ -34,3 +34,17 @@ Essa divisão em níveis da memória cache existe por conta dos sistemas que usa
 **Main Memory**, ou memória ram, são memórias consideradas memórias principais, quanto maior a memória ram, melhor para a aplicação do usuário, pois ela tera mais espaço de trabalho.
 
 **Disk**, ou armazenamentos persistentes, e não voláteis, ou seja você desligou o computador as informações contidas nesta memória continuam armazenadas e não são excluídas.
+
+## Tarefas do Gerenciador de Memória
+
+- **Gerenciar a hierarquia de memória**
+ - Gerenciar espaços livres/ocupados
+ - Alocar e localizar processos/dados na memória.
+- **Controlar as partes que estão em uso, e as que não, para:**
+ - **Alocar** memória aos processos, quando estes precisarem.
+ - **Liberar** memória quando um processo termina.
+ - Tratar do problema do **swapping.** Responsável por gerenciar **chaveamento entre a memória principal e o disco** e memória principal e memória cache.
+
+Se você não entendeu o que e **swapping** não se preocupe, mas afrente nesta apresentação isso sera explicado.
+
+Todo esse trabalho e feito por um modulo do sistema operacional que se chama gerenciador de recursos.
