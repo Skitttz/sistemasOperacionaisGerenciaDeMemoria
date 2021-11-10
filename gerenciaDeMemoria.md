@@ -48,3 +48,13 @@ Essa divisão em níveis da memória cache existe por conta dos sistemas que usa
 Se você não entendeu o que e **swapping** não se preocupe, mas afrente nesta apresentação isso sera explicado.
 
 Todo esse trabalho e feito por um modulo do sistema operacional que se chama gerenciador de recursos.
+
+## Gerencia de Memória - Monoprogramação
+
+Em sistemas operacionais mono tarefas e monoprogramação e memória era usa de 3 formas diferentes
+
+A primeira e mais intiga em mainframes(computadores de grande porte)
+
+O segundo usada em alguns handhelds(Sistemas moveis por exemplo), tem o sistema operacional aramzenado em uma mamória de leitura apenas, ou seja fez o boot, assim que o boot e feito essa memória de leitura e acessada para caregar o sistema operacional.
+
+E a terceiro forma de gerenciamento de memória em sistemas operacionais mono tarefas e monoprogramação foi usada em computadores pessoais, onde o sistema operacional ficava na memória principal começando com o endereço 0 e os drivers de dispositivos, (driverns de dispositivos são softwares que controlam o dispositivo) ficam armazenados em memorias apenas de leitura.
