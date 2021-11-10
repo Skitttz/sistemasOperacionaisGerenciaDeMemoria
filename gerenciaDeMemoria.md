@@ -20,3 +20,17 @@ Idealmente os programadores querem uma memória que seja:
 Infelizmente, a pesar da grande evolução da tecnologia nos últimos anos nem sempre a memória do sistema em que estamos trabalhando possui todos estes benefícios.
 
 E por vezes os programadores precisam se adequar a esse ambiente de polca me moria, memórias lentas, voláteis, e de alto custo.
+
+## Hierarquia de memória
+
+O sistema de computação possui diversos tipos de memória que são organizadas de maneira hierárquica, são elas
+
+**Register**, ou registrador, são essencialmente memórias que se encontram dentro do processador e consequentemente como ela se encontra dentro do processador a distancia percorrida para acessar uma informação e pequena, e menor do que acessar de uma memória principal, ou seja ele e mais rapido na hora de acessar informações.
+
+**Cache, (L2 Cache)**, e uma memória intermediaria que fica entre a memória principal e a própria CPU, e possui vários níveis, esses níveis representam essencialmente o local onde as cache se localizam.
+
+Essa divisão em níveis da memória cache existe por conta dos sistemas que usam arquitetura multicor, neste caso cada cache pode ser usado por um ou mais cores do sistema.
+
+**Main Memory**, ou memória ram, são memórias consideradas memórias principais, quanto maior a memória ram, melhor para a aplicação do usuário, pois ela tera mais espaço de trabalho.
+
+**Disk**, ou armazenamentos persistentes, e não voláteis, ou seja você desligou o computador as informações contidas nesta memória continuam armazenadas e não são excluídas.
