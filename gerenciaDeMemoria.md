@@ -53,7 +53,7 @@ Todo esse trabalho e feito por um modulo do sistema operacional que se chama ger
 
 Em sistemas operacionais mono tarefas e monoprogramação e memória era usa de 3 formas diferentes
 
-A primeira e mais intiga em mainframes(computadores de grande porte)
+A primeira e mais intiga em mainframes(computadores de grande porte), o sistema operacional era armazenado na memória principal 
 
 O segundo usada em alguns handhelds(Sistemas moveis por exemplo), tem o sistema operacional aramzenado em uma mamória de leitura apenas, ou seja fez o boot, assim que o boot e feito essa memória de leitura e acessada para caregar o sistema operacional.
 
