@@ -61,6 +61,12 @@ E a terceiro forma de gerenciamento de memória em sistemas operacionais mono ta
 
 ## Gerencia de Memória - Multiprogramação
 
+Ao gerenciar memória em um SO Multi tarefas e Multiprogramação, 2 problemas são enfrentados como fazer para armazenar n processos na memória? e como dar a cada programa seu próprio espaço de endereço, de modo que o endereço 28 em um seja diferente, na memória física, do 28 de outro?
+
+bom vamos ver como esses problemas podem ser resolvidos.
+
 - Como fazer para armazenar n processos na memória?,ao chegar um job, coloque-o na fila da memória, a memória então e divida em n partições de tamanho fixo, não necessariamente iguais.
 
 - Como dar a cada programa seu próprio espaço de endereço, de modo que o endereço 28 em um seja diferente, na memória física, do 28 de outro?
+
+Para resolver esse problema o SO usa 2 registradores -> base e limite, a CPU adiciona o valor base ao endereço, e verifica se o endereço é maior ou igual ao limite.
